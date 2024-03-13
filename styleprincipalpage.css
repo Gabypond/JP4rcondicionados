@@ -1,0 +1,522 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.header {
+    background-color: DDE5F2;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.links-pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links-pages a {
+    text-decoration: none;
+    color: 000000;
+}
+
+.links-pages a:hover {
+    color: FCBF02;
+}
+
+.description-main-banner {
+    background-color: DDE5F2;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+
+.description-main-banner a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/*Carousel*/
+
+#carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+#carousel img {
+    width: 100%;
+    height: auto;
+}
+
+#carousel-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+
+/*Cards services*/
+
+.cards-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-services p {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.title-card-services span {
+    color: FCBF02;
+}
+
+.container-images-cards-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.container-images-cards-services img {
+    width: 387px;
+    height: 600px;
+}
+
+.container-images-cards-services p {
+    align-items: center;
+}
+
+
+/*Our history*/
+
+.container-our-history {
+    display: flex;
+    margin-top: 95px;
+    align-items: center;
+    margin-bottom: 49px;
+}
+
+.writing-our-history {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 129px;
+    margin-right: 37px;
+}
+
+.writing-our-history h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.writing-our-history p {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.image-our-history {
+    margin-right: 158px;
+}
+
+
+/*separation secction*/
+
+.separation-secction {
+    border-color: #0B84C4;
+    size: 5px;
+}
+
+
+/*mission*/
+
+.container-mission {
+    display: flex;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    align-items: center;
+}
+
+.writing-mission {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 129px;
+    margin-left: 37px;
+}
+
+.writing-mission h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.writing-mission p {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.image-mission {
+    margin-left: 129px;
+}
+
+
+/*Vision*/
+
+.container-vision {
+    display: flex;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    align-items: center;
+}
+
+.writing-vision {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 129px;
+    margin-right: 37px;
+}
+
+.writing-vision h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.writing-vision p {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.image-vision {
+    margin-right: 158px;
+}
+
+
+/*Title our values*/
+
+.title-our-values {
+    font-size: 27px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 36px 0px;
+}
+
+
+/*Our values*/
+
+.container-our-values {
+    display: flex;
+    align-items: center;
+    margin-left: 129px;
+    margin-right: 158px;
+    gap: 40px;
+}
+
+.container-our-values h1 {
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-top: 51px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.container-our-values p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*title and descreption form*/
+
+.container-form-submit {
+    background-color: #101E32;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    color: #fff
+}
+
+.title-and-descreption-form {
+    margin-top: 32px;
+    margin-left: 127px;
+}
+
+.title-and-descreption-form h1 {
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.title-and-descreption-form p {
+    font-size: 15px;
+    margin: 18px 0px 48px 0px;
+}
+
+
+/*Form*/
+
+.form-submit {
+    margin-left: 127px;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+.class-input-form {
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    max-width: 40%;
+    gap: 10px;
+}
+
+.class-input-form input {
+    margin-bottom: 15px;
+}
+
+.container-message-client {
+    margin-top: 15px;
+}
+
+.container-message-client input {
+    width: 140%;
+    max-width: 150%;
+    height: 150px;
+    max-height: 100%;
+}
+
+
+/*Submit*/
+
+.button button {
+    width: 162px;
+    height: 33px;
+    font-size: 15px;
+}
+
+
+/*container division form and footer*/
+
+.container-division-form-and-footer {
+    background-color: #DDE5F2;
+    width: 100%;
+    height: 30px;
+}
+
+
+/*division icons informations*/
+
+.division-icons-informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.class-icons-information {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.class-icons-information h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.class-icons-information p {
+    font-size: 13px;
+}
+
+
+/*background static cards informations*/
+
+.background-static-cards-informations {
+    background-color: #101E32;
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+}
+
+
+/*cards background cards information*/
+
+.cards-static-informations-all {
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    height: 150px;
+    width: 100%;
+}
+
+.cards-static-informations {
+    background-color: #DDE5F2;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+    gap: 10px;
+    -webkit-box-shadow: 0px 13px 16px -14px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 0px 13px 16px -14px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 13px 16px -14px rgba(0, 0, 0, 0.68);
+}
+
+.cards-static-informations img {
+    width: 40%;
+    height: 50%;
+}
+
+.description-cards-static-informations h1 {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.description-cards-static-informations p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+/*division body footer*/
+
+.division-body-footer {
+    background-color: #101E32;
+    border-color: #101E32;
+    height: 15px;
+}
+
+
+/*Footer institutional*/
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 30px 0px 50px 0px;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container-footer p {
+    font-size: 15px;
+}
+
+.container-footer h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.institutional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.service-area-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+/*separation footer*/
+
+.separation-footer {
+    border-color: #101E32;
+    margin: 0;
+}
+
+
+/*Payment and social media*/
+
+.footer-media-payments {
+    display: flex;
+    background-color: #DDE5F2;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 7px 0 7px 0;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 35px;
+}
+
+.social-media {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.social-media img {
+    width: 32px;
+    max-width: 100%;
+    height: 39px;
+}
+
+
+/*Cnpj and development*/
+
+.cnpj-development-footer {
+    display: flex;
+    align-items: center;
+    background-color: #101E32;
+    justify-content: space-evenly;
+    padding: 7px 0 7px 0;
+}
+
+.cnpj-development-footer a {
+    text-decoration: none;
+    color: #DDE5F2;
+}
+
+.cnpj-development-footer p {
+    color: #DDE5F2;
+}

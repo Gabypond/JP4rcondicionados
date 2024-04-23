@@ -1,0 +1,83 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.swiper-pagination-bullet{
+    background-color: #101E32
+}
+
+.swiper-button-prev, .swiper-button-next {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    background-color: transparent;
+    size: 20px;
+    cursor: pointer;
+    color: #101E32;
+}
+
+.slick-prev {
+    padding: 14px;
+    left: 4%;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 4%;
+    font-size: 25px;
+    padding: 14px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: #ffffff;
+}
+
+.slick-arrow:hover {
+    transition: 0.6s;
+}
+
+.slide.slick-slide {
+    height: auto;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 4%;
+}
+
+.slick-dots li button::before{
+    color: #FFDE79;
+    transition: 0.3s;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FFDE79;
+}
